@@ -1,0 +1,169 @@
+
+
+body{
+    background-image: url(../img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+.container{
+    padding: 80px;
+    display: flex;
+    
+}
+
+.container h1 {
+    padding-right: 250px;
+    font-weight:600;
+    font-size: 30px;
+} 
+
+.logo img{
+    width: 200px;
+}
+
+.box-01{
+    width: 40vw;
+}
+
+.box-01 p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.lojas{
+    display: flex;
+}
+
+.lojas img{
+    margin-top: 40px;
+    margin-right: 24px;
+    width: 300px;
+}
+
+.duvidas{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.celular img{
+    margin: 40px 100px;
+    height: 80vh;
+}
+
+.celular-02{
+    display: none;
+}
+
+
+/* Notebook */
+  @media screen and (max-width: 1200px) {
+
+    .container{
+        flex-wrap: wrap;
+    }
+    .container h1 {
+        font-weight:600;
+        font-size: 30px;
+    } 
+    
+    .logo img{
+        width: 200px;
+    }
+    
+    .box-01{
+        width: 80vw;
+    }
+    
+    .box-01 p{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    
+    .lojas{
+        display: flex;
+    }
+    
+    .lojas img{
+        margin-top: 40px;
+        margin-right: 24px;
+        justify-content: center;
+        width: 200px;
+    }
+    
+    .duvidas{
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    
+    .celular img{
+        margin: 0 auto;
+        height: 80vh;
+        display: none;
+    }
+    .celular-02{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .celular-02 img{
+        margin: 0 auto;
+        height: 80vh;
+        
+    }
+    
+  }
+
+
+  
+  /* Celular */
+  @media screen and (max-width: 600px) {
+
+    
+    .container h1 {
+        padding-right: 0;
+        font-weight:600;
+        font-size: 30px;
+        text-align: center;
+    } 
+    
+    .logo img{
+        width: 200px;
+    }
+    
+    .box-01{
+        width: 70vw;
+    }
+    
+    .box-01 p{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    
+    .lojas{
+        display: flex;
+    }
+    
+    .lojas img{
+        margin-top: 40px;
+        margin-right: 24px;
+        width: 200px;
+    }
+    
+    .duvidas{
+        margin-top: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .celular img{
+        margin: 40px 100px;
+        height: 80vh;
+    }
+    
+    
+  }
